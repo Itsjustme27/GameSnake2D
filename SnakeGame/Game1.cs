@@ -1,5 +1,7 @@
 ﻿
 using System;
+using System.IO;
+using System.Text.Json;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
@@ -21,6 +23,7 @@ public class Game1 : Game
     private SpriteBatch _spriteBatch;
     private SpriteFont font;
     private int score = 0;
+    private int highscore;
 
     public Game1()
     {
@@ -63,6 +66,21 @@ public class Game1 : Game
         return distance < (ballRadius + foodRadius);
     }
 
+    private void HighScoreFile(int highscore) {
+        string fileName = "HighScore.txt";
+
+        string intString = highscore.ToString();
+        File.WriteAllText(fileName, intString);
+    }
+
+    private string ReadHighScoreFile() {
+        string fileName = "HighScore.txt";
+        
+        string readText = File.ReadAllText(fileName);
+        highscore = Convert.ToInt32(readText);
+        return readText;
+    }
+
     protected override void Update(GameTime gameTime)
     {
         if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
@@ -84,14 +102,20 @@ public class Game1 : Game
         var infiniteMotion = new Animate();
         infiniteMotion.InfiniteMotion(ref ballPosition, updatedBallSpeed, gameTime);
 
+
         if(CheckCollision(ballPosition, ballTexture, foodPosition, foodTexture)) {
             System.Diagnostics.Debug.WriteLine("Collision detected!");
             score++;
+            if(score > highscore){
+                highscore = score;
+                HighScoreFile(highscore);
+            }
             foodPosition = new Vector2(
                 Random.Shared.Next(0, _graphics.PreferredBackBufferWidth - foodTexture.Width),
                 Random.Shared.Next(0, _graphics.PreferredBackBufferHeight - foodTexture.Height)
             );
         }
+
 
         base.Update(gameTime);
     }
@@ -131,7 +155,9 @@ public class Game1 : Game
             Color.White
         );
 
+        string highscore = ReadHighScoreFile();
         _spriteBatch.DrawString(font, $"Score:{score}", new Vector2(10,10), Color.White);
+        _spriteBatch.DrawString(font, $"Current High Score: {highscore} ", new Vector2(300,10), Color.White);
 
         _spriteBatch.End();
 

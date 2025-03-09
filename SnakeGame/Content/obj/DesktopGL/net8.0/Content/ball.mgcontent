@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>/home/itsjustme/Documents/github/SnakeGame/Content/ball.png</SourceFile>
+  <SourceFile>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/ball.png</SourceFile>
   <SourceTime>2025-02-25T10:24:44.1252028+05:45</SourceTime>
-  <DestFile>/home/itsjustme/Documents/github/SnakeGame/Content/bin/DesktopGL/Content/ball.xnb</DestFile>
-  <DestTime>2025-02-25T10:34:29.0833188+05:45</DestTime>
+  <DestFile>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/bin/DesktopGL/Content/ball.xnb</DestFile>
+  <DestTime>2025-03-07T18:31:45.4504749+05:45</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2024-08-16T22:50:56+05:45</ImporterTime>
   <Processor>TextureProcessor</Processor>

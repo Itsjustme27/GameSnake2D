@@ -4,10 +4,10 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>/home/itsjustme/Documents/github/SnakeGame/Content/apple.png</File>
-    <File>/home/itsjustme/Documents/github/SnakeGame/Content/arch.png</File>
-    <File>/home/itsjustme/Documents/github/SnakeGame/Content/ball.png</File>
-    <File>/home/itsjustme/Documents/github/SnakeGame/Content/GameFont.spritefont</File>
+    <File>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/apple.png</File>
+    <File>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/arch.png</File>
+    <File>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/ball.png</File>
+    <File>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/GameFont.spritefont</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

@@ -243,11 +243,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/itsjustme/Documents/github/SnakeGame/SnakeGame.csproj",
+      "projectUniqueName": "/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/SnakeGame.csproj",
       "projectName": "SnakeGame",
-      "projectPath": "/home/itsjustme/Documents/github/SnakeGame/SnakeGame.csproj",
+      "projectPath": "/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/SnakeGame.csproj",
       "packagesPath": "/home/itsjustme/.nuget/packages/",
-      "outputPath": "/home/itsjustme/Documents/github/SnakeGame/obj/",
+      "outputPath": "/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/itsjustme/.nuget/NuGet/NuGet.Config"

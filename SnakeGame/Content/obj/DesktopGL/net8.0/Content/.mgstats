@@ -1,5 +1,5 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"/home/itsjustme/Documents/github/SnakeGame/Content/apple.png","/home/itsjustme/Documents/github/SnakeGame/Content/bin/DesktopGL/Content/apple.xnb","TextureProcessor","Texture2DContent",632,6485,1.180289
-"/home/itsjustme/Documents/github/SnakeGame/Content/arch.png","/home/itsjustme/Documents/github/SnakeGame/Content/bin/DesktopGL/Content/Content/arch.xnb","TextureProcessor","Texture2DContent",55056,33177685,2.4205616
-"/home/itsjustme/Documents/github/SnakeGame/Content/ball.png","/home/itsjustme/Documents/github/SnakeGame/Content/bin/DesktopGL/Content/Content/ball.xnb","TextureProcessor","Texture2DContent",8368,16469,0.1402123
-"/home/itsjustme/Documents/github/SnakeGame/Content/GameFont.spritefont","/home/itsjustme/Documents/github/SnakeGame/Content/bin/DesktopGL/Content/GameFont.xnb","FontDescriptionProcessor","SpriteFontContent",2018,21538,0.9902719
+"/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/apple.png","/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/bin/DesktopGL/Content/apple.xnb","TextureProcessor","Texture2DContent",632,6485,0.5316314
+"/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/arch.png","/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/bin/DesktopGL/Content/arch.xnb","TextureProcessor","Texture2DContent",55056,33177685,2.5657818
+"/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/ball.png","/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/bin/DesktopGL/Content/ball.xnb","TextureProcessor","Texture2DContent",8368,16469,0.0141964
+"/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/GameFont.spritefont","/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/bin/DesktopGL/Content/GameFont.xnb","FontDescriptionProcessor","SpriteFontContent",2018,21538,0.458757

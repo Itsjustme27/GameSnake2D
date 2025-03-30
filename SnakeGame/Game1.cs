@@ -1,7 +1,6 @@
 ﻿
 using System;
 using System.IO;
-using System.Text.Json;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
@@ -14,6 +13,7 @@ public class Game1 : Game
     Texture2D ballTexture;
     Texture2D foodTexture;
     Texture2D squareTexture;
+
     Vector2 ballPosition;
     Vector2 ballDirection;
     Vector2 foodPosition;
@@ -24,7 +24,9 @@ public class Game1 : Game
     private SpriteFont font;
     private int score = 0;
     private int highscore;
+    private BorderLimit borderLimit;
 
+    private bool gameOver = false;
     public Game1()
     {
         _graphics = new GraphicsDeviceManager(this);
@@ -41,6 +43,8 @@ public class Game1 : Game
         ballDirection = new Vector2(1, 0);
 
         foodPosition = new Vector2(100, 100);
+
+        borderLimit = new BorderLimit();
 
         base.Initialize();
     }
@@ -86,6 +90,10 @@ public class Game1 : Game
         if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
             Exit();
 
+        if(gameOver) {
+           GraphicsDevice.Clear(Color.Black);
+        }
+
         // TODO: Add your update logic here
 
         // The time since Update was called last.
@@ -95,9 +103,10 @@ public class Game1 : Game
         var keyboard = new KeyInput();                      
         keyboard.KInput(ballSpeed, ref ballPosition, ref ballDirection);
 
-        // created another class for window borderl limit
+        // created another class for window border limit and collision
         var windowBorderLimit = new BorderLimit();
         windowBorderLimit.border(ref ballPosition, ref ballTexture, _graphics);
+
 
         var infiniteMotion = new Animate();
         infiniteMotion.InfiniteMotion(ref ballPosition, updatedBallSpeed, gameTime);
@@ -115,7 +124,6 @@ public class Game1 : Game
                 Random.Shared.Next(0, _graphics.PreferredBackBufferHeight - foodTexture.Height)
             );
         }
-
 
         base.Update(gameTime);
     }
@@ -158,7 +166,7 @@ public class Game1 : Game
         string highscore = ReadHighScoreFile();
         _spriteBatch.DrawString(font, $"Score:{score}", new Vector2(10,10), Color.White);
         _spriteBatch.DrawString(font, $"Current High Score: {highscore} ", new Vector2(300,10), Color.White);
-
+        
         _spriteBatch.End();
 
         base.Draw(gameTime);

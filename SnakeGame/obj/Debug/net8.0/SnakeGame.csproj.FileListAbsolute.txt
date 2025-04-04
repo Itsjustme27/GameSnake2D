@@ -61,3 +61,17 @@
 /home/itsjustme/Documents/github/GameSnake2D/SnakeGame/obj/Debug/net8.0/SnakeGame.pdb
 /home/itsjustme/Documents/github/GameSnake2D/SnakeGame/obj/Debug/net8.0/SnakeGame.genruntimeconfig.cache
 /home/itsjustme/Documents/github/GameSnake2D/SnakeGame/obj/Debug/net8.0/ref/SnakeGame.dll
+/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/bin/Debug/net8.0/Content/body_bottomleft.xnb
+/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/bin/Debug/net8.0/Content/body_bottomright.xnb
+/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/bin/Debug/net8.0/Content/body_horizontal.xnb
+/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/bin/Debug/net8.0/Content/body_topleft.xnb
+/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/bin/Debug/net8.0/Content/body_topright.xnb
+/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/bin/Debug/net8.0/Content/body_vertical.xnb
+/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/bin/Debug/net8.0/Content/head_down.xnb
+/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/bin/Debug/net8.0/Content/head_left.xnb
+/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/bin/Debug/net8.0/Content/head_right.xnb
+/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/bin/Debug/net8.0/Content/head_up.xnb
+/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/bin/Debug/net8.0/Content/tail_down.xnb
+/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/bin/Debug/net8.0/Content/tail_left.xnb
+/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/bin/Debug/net8.0/Content/tail_right.xnb
+/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/bin/Debug/net8.0/Content/tail_up.xnb

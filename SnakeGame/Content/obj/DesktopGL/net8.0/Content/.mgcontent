@@ -4,12 +4,42 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/../assets/Graphics/apple.png</File>
     <File>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/apple.png</File>
     <File>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/arch.png</File>
     <File>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/ball.png</File>
+    <File>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/body_bottomleft.png</File>
+    <File>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/body_bottomright.png</File>
+    <File>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/body_horizontal.png</File>
+    <File>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/body_topleft.png</File>
+    <File>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/body_topright.png</File>
+    <File>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/body_vertical.png</File>
     <File>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/GameFont.spritefont</File>
+    <File>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/head_down.png</File>
+    <File>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/head_left.png</File>
+    <File>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/head_right.png</File>
+    <File>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/head_up.png</File>
+    <File>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/tail_down.png</File>
+    <File>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/tail_left.png</File>
+    <File>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/tail_right.png</File>
+    <File>/home/itsjustme/Documents/github/GameSnake2D/SnakeGame/Content/tail_up.png</File>
   </SourceFiles>
   <DestFiles>
+    <File>apple.png</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
